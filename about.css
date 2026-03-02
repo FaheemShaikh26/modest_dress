@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4EFEA;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    color: #0E4D4D;
+}
+
+.announcement-bar {
+    background-color: #0E4D4D;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    background-color: #FFF;
+    border-bottom: 1px solid #E0D8D0;
+    padding: 20px 0;
+}
+
+.nav-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 24px;
+    color: #0E4D4D;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #C8A951;
+}
+
+.about-section {
+    width: 1200px;
+    margin: 80px auto;
+    background-color: #FFF;
+    padding: 80px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+.mission-statement {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #E0D8D0;
+}
+
+.mission-statement h3 {
+    font-size: 28px;
+    color: #C8A951;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #FFF;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 80px;
+    border-top: 1px solid #E0D8D0;
+}
